@@ -1,18 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Odin Recipes</title>
-        <link rel = "stylesheet" href="styles.css">
-    </head>
-    <body>
-        <div class="header">
-            <h1>Odin Recipes</h1>
-        </div>
-        <div class ="content">
-            <p><a href="./recipes/shawarma.html"> Shawarma</a></p>
-            <p><a href="./recipes/noodles.html"> Noodles</a></p>
-            <p><a href="./recipes/burger.html">Burger</a></p>    
-        </div>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorite Recipes</title>
+    <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+    <header>
+        <h1>Odin Recipes</h1>
+        <p>Delicious dishes to try at home!</p>
+    </header>
+
+    <main>
+        <section id="recipes">
+            <div class="recipe-card">
+                <img src="imgs/burger.jpeg" alt="Recipe 1">
+                <h2>Burger</h2>
+                <p>Enjoy a classic simple burger recipe perfect. A delicious homemade burger in just a few simple steps!</p>
+                <a href="recipes/burger.html">View Full Recipe</a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="imgs/chicken_shawarma.avif" alt="Recipe 2">
+                <h2>Shawarma</h2>
+                <p>Marinated chicken wrapped topped with traditional yogurt sauce. Perfect for any occasion!</p>
+                <a href="recipes/shawarma.html">View Full Recipe</a>
+            </div>
+
+            <div class="recipe-card">
+                <img src="imgs/noodles.jpg" alt="Recipe 3">
+                <h2>Noodles</h2>
+                <p>Cheap and quick noodle recipe featuring perfectly cooked noodles tossed in a savory sauce, complemented by fresh vegetables</p>
+                <a href="recipes/noodles.html">View Full Recipe</a>
+            </div>
+
+            <!-- Add more recipes as needed -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Adam Moujar Bakhti</p>
+    </footer>
+</body>
 </html>
